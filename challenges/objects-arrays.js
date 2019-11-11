@@ -39,20 +39,20 @@ var dinosaur2 = {
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
-console.log();
+console.log(dinosaur0.weight);
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(dinosaur2.diet);
 
 // How long was a stegosaurus?
-console.log();
+console.log(dinosaur1.length);
 
 // What time period did tyrannosaurus live in?
-console.log();
+console.log(dinosaur0.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+console.log(dinosaur0.roar());
 
 
 // ==== Arrays ====
