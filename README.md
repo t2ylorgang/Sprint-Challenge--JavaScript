@@ -1,5 +1,7 @@
 # Sprint Challenge: JavaScript Fundamentals
 
+Taylor Olson WEBPT12
+
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a survey of problems. This Sprint explored JavaScript Fundamentals. During this Sprint, you studied variables, functions, object literals, arrays, this keyword, prototypes, and class syntax. In your challenge this week, you will demonstrate proficiency by completing a survey of JavaScript problems.
 
 ## Instructions
@@ -30,13 +32,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+The `.forEach` method does not actually return anything. It calls a function on each element of the array. This callback function is "mutating" the array. Where as `.map` creates a whole new array with the results, or products, for example, of a function that is called on each element in the array.
+
 2. What is the difference between a function and a method?
+
+All functions in Javascript are objects. In fact, everything in java script is an object. Objects can be a collection of key: value pairs. The "value" can be a string, a number, or a boolean value. However, when we code this in such a way that the value is a function and not just a primitive, this is called a method. Thus, the difference between a "function" and a "method" in javascript.
 
 3. What is closure?
 
+Closure gives the developer access to an outer function's scope from an inner function. This can be used to ensure data privacy.
+
 4. Describe the four rules of the 'this' keyword.
 
+1) Is the function called by new?
+2) Is the function called by call(), bind(), or apply().
+3) Is the function called in the global scope?
+4) Is the function called as a method?
+
 5. Why do we need super() in an extended class?
+
+The super() keyword is a keyword used by developers to call the methods of a parent class. This is used with a constructor function to call the parent constructor function.
 
 ## Project Set up
 
