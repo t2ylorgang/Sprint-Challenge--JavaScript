@@ -13,11 +13,11 @@ const tyrannosaurus = {
   diet: "carnivorous",
   weight: "7000kg",
   length: "12m",
-  period: "Late Cretaceous"
+  period: "Late Cretaceous",
   roar: () => {
     return "RAWERSRARARWERSARARARRRR!";
   }
-};
+}
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
 
