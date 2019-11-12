@@ -7,7 +7,7 @@
   * The consume function should return the invocation of cb, passing a and b into cb as arguments
 */
 
-consume(a, b, cb) =>
+consume = (a, b, cb) => {
   return cb(a, b);
 }
 
